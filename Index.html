@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Daily Day</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='85'>🌸</text></svg>">
+
+<style>
+:root{
+  --bg:#eff1f5;
+  --card:#ffffffaa;
+  --text:#53576c;
+  --muted:#999;
+  --border:#eeeeee;
+  --accent:#94dbea;
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  min-height:100vh;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Segoe UI, system-ui, sans-serif;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:12px;
+  user-select: none;
+}
+
+h1{
+  font-family:Cursive;
+  font-size:64px;
+  font-weight:300;
+}
+
+h2{
+  font-family:Cursive;
+  font-size:24px;
+  font-weight:300;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+subtitle{
+  font-size:18px;
+  margin-bottom:40px;
+}
+
+.dials{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 12px 12px;
+}
+
+.dial{
+  width:120px;
+  aspect-ratio:1/1;
+  padding:20px 8px 8px 8px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:8px;
+
+  color:var(--text);
+  text-decoration:none;
+
+  transition:0.15s ease;
+}
+
+.dial:hover{
+  transform:scale(1.05);
+  border-color:var(--accent);
+}
+
+.dial:active{
+  transform:scale(1.00);
+  background:var(--accent);
+  border-color:var(--accent);
+}
+
+.icon{
+  font-size:40px;
+  margin-bottom:4px;
+}
+
+.label{
+  font-size:14px;
+  text-align:center;
+}
+
+footer{
+  margin-top:80px;
+  color:var(--muted);
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="icon">🌸</div>
+
+<h1>Daily Day</h1>
+<subtitle>Animation by Krisada</subtitle>
+<h2>Follow Daily Day Here</h2>
+
+<div class="dials">
+
+  <a class="dial" href="https://lemoon.io/series/6004046067360854937-daily-day">
+    <div class="icon">🍋</div>
+    <div class="label">Lemoon</div>
+  </a>
+  <a class="dial" href="https://namicomi.com/en/title/MpDWd6mN/daily-day">
+    <div class="icon">🌊</div>
+    <div class="label">NamiComi</div>
+  </a>
+  <a class="dial" href="https://tapas.io/series/Daily-Day/info">
+    <div class="icon">🐶</div>
+    <div class="label">Tapas</div>
+  </a>
+
+</div>
+
+<h2>Free Download!</h2>
+
+<div class="dials">
+
+  <a class="dial" href="https://mega.nz/folder/vZVxkIyQ#n8_DV1jLt0xAHzIcA4gjcg">
+    <div class="icon">🗓️</div>
+    <div class="label">Daily Day<br/>2026 Calendar</div>
+  </a>
+  <a class="dial" href="https://mega.nz/folder/ndEG0Lha#2ZSfhObqvMvfkMvHRSNm6w">
+    <div class="icon">🖼️</div>
+    <div class="label">Daily Day Wallpaper</div>
+  </a>
+
+</div>
+
+<footer>Daily Day © 2026</footer>
+
+</body>
+</html>
